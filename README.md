@@ -4,7 +4,7 @@
 
 **MADpatterns** is a tool to **M**odel and **A**nalyze  1**D** **patterns** developed in the lab of Prof. Nancy Kleckner at Harvard University
 
-###Key Features
+####Key Features
 
 1. Quantitatively model 1D patterning events based on the Beam-Film model for crack formation
 
