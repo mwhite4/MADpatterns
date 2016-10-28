@@ -1,19 +1,5 @@
 function crossover_simulation(input_file)
 
-%To cite this program please use the following:
-%White, M.A., Wang, S.X., Zhang, L., and Kleckner, N. (2016). Methods in
-%Molecular Biology (in press)
-
-%History of the program
-%The original version of this program (BFprog(Beam Film program)) is developed by Kleckner lab
-%and written by John Hutchinson,Zhangyi Liang and Liangran Zhang
-%reference:Kleckner et al.,2004. Proc.Natl. Acad. Sci. USA 101:12592-12597
-
-%An updated version of the program was published in 2014:
-%Zhang, L., Liang, Z., Hutchinson, J., and Kleckner, N. (2014). Crossover
-%patterning by the Beam-Film model: analysis and implications. PLoS
-%Genetics; 10: e1004042
-
 %% Step 1: obtain parameter sets from input table
 %MW: If table has no name, the user can select the file using finder.  Assume that table has headers
 
