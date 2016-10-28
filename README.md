@@ -2,7 +2,8 @@
 
 ##**Description**
 
-**MADpatterns** is a tool to **M**odel and **A**nalyze  1**D** **patterns** developed in the lab of Prof. Nancy Kleckner at Harvard University
+**MADpatterns** is a tool to **M**odel and **A**nalyze  1**D** **patterns** using the software MATLAB, that was developed in the lab of Prof. Nancy Kleckner at Harvard University
+http://projects.iq.harvard.edu/kleckner_lab
 
 ####Key Features
 
