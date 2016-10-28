@@ -12,6 +12,7 @@ http://projects.iq.harvard.edu/kleckner_lab
 2. Automate analysis of 1D patterns
 
 ##**Installation**
+Download program, unzip the folder, open MATLAB and add the unzipped folder to the file path
 
 ##**Usage**
 For a detailed user guide and information on the relevance of this program to studying meiotic recombination events, please read our manuscript currently available on bioRxiv and soon to be available in Methods in Molecular Biology.
