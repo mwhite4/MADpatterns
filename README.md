@@ -1,6 +1,6 @@
 # MADpatterns
 
-Description
+##**Description**
 
 **MADpatterns** is a tool to **M**odel and **A**nalyze  1**D** **patterns** developed in the lab of Prof. Nancy Kleckner at Harvard University
 
@@ -20,10 +20,10 @@ Key Features
 
 2. Automate analysis of 1D patterns
 
-Installation
+##**Installation**
 
-Usage
+##**Usage**
 
-Credits
+##**Credits**
 
-License
+##**License**
