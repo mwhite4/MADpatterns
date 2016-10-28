@@ -14,7 +14,7 @@ http://projects.iq.harvard.edu/kleckner_lab
 Download program, unzip the folder, open MATLAB and add the unzipped folder to the file path
 
 ##Usage
-For a detailed user guide and information on the relevance of this program to studying meiotic recombination events, please read our manuscript currently available on bioRxiv and soon to be available in Methods in Molecular Biology.
+For a detailed user guide and information on the relevance of this program to the study of meiotic recombination events, please read our manuscript currently available on bioRxiv and soon to be available in Methods in Molecular Biology.
 
 doi: http://dx.doi.org/10.1101/083808
 
