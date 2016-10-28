@@ -8,7 +8,6 @@ http://projects.iq.harvard.edu/kleckner_lab
 ####Key Features
 
 1. Quantitatively model 1D patterning events based on the Beam-Film model for crack formation
-
 2. Automate analysis of 1D patterns
 
 ##Installation
