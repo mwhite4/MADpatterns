@@ -1,6 +1,6 @@
 # MADpatterns
 
-##**Description**
+##Description
 
 **MADpatterns** is a tool to **M**odel and **A**nalyze  1**D** **patterns** using the software MATLAB, that was developed in the lab of Prof. Nancy Kleckner at Harvard University
 http://projects.iq.harvard.edu/kleckner_lab
@@ -11,10 +11,10 @@ http://projects.iq.harvard.edu/kleckner_lab
 
 2. Automate analysis of 1D patterns
 
-##**Installation**
+##Installation
 Download program, unzip the folder, open MATLAB and add the unzipped folder to the file path
 
-##**Usage**
+##Usage
 For a detailed user guide and information on the relevance of this program to studying meiotic recombination events, please read our manuscript currently available on bioRxiv and soon to be available in Methods in Molecular Biology.
 
 doi: http://dx.doi.org/10.1101/083808
@@ -22,7 +22,7 @@ doi: http://dx.doi.org/10.1101/083808
 ##Contributions and User Support
 
 
-##**Credits**
+##Credits
 This program is essentially a new version of a previous program developed by Liangran Zhang, Nancy Kleckner and John Hutchinson:
 
 Kleckner et al. (2004). A mechanical basis for chromosome function. Proc. Natl. Acad. Sci. USA; 101: 12592 - 12597
@@ -31,7 +31,7 @@ Zhang et al. (2014). Crossover patterning by the Beam-Film model: analysis and i
 
 Zhang et al. (2014). Topoisomerase II mediates meiotic crossover interference. Nature; 511: 551-556.
 
-##**License**
+##License
 MIT License
 
 Copyright (c) 2016 Martin Andrew White
