@@ -1,4 +1,7 @@
 # MADpatterns
+
+Description
+
 MADpatterns is a tool for Modeling and Analysis of 1D patterns developed in the lab of Prof. Nancy Kleckner at Harvard University
 
 For a detailed user guide and information on the relevance of this program to studying meiotic recombination events, please read our manuscript currently available on bioRxiv and soon to be available in Methods in Molecular Biology.
@@ -16,3 +19,11 @@ Key Features
 1. Quantitatively model 1D patterning events based on the Beam-Film model for crack formation
 
 2. Automate analysis of 1D patterns
+
+Installation
+
+Usage
+
+Credits
+
+License
