@@ -19,7 +19,7 @@ For a detailed user guide and information on the relevance of this program to th
 doi: http://dx.doi.org/10.1101/083808
 
 ##Credits
-This program was developed by Martin White (@mwhite4) in the lab of Prof. Nancy Kleckner with help from Liangran Zhang.  A significant fraction of this program is either directly taken or derived from a previous program developed by Liangran Zhang, Nancy Kleckner and John Hutchinson:
+This program was developed by Martin White in the lab of Prof. Nancy Kleckner with help from Liangran Zhang.  A significant fraction of this program is either directly taken or derived from a previous program developed by Liangran Zhang, Nancy Kleckner and John Hutchinson:
 
 Kleckner et al. (2004). A mechanical basis for chromosome function. Proc. Natl. Acad. Sci. USA; 101: 12592 - 12597
 
