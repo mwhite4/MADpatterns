@@ -27,6 +27,8 @@ Zhang et al. (2014). Crossover patterning by the Beam-Film model: analysis and i
 
 Zhang et al. (2014). Topoisomerase II mediates meiotic crossover interference. Nature; 511: 551-556.
 
+This version of the program is available for download here https://app.box.com/s/hv91q2nrtq0cp9n8iy9m
+
 ##License
 MIT License
 
