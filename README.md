@@ -1,5 +1,6 @@
 # MADpatterns
-https://zenodo.org/badge/72135256.svg
+DOI for latest version:
+[![DOI](https://zenodo.org/badge/72135256.svg)](https://zenodo.org/badge/latestdoi/72135256)
 
 ##Description
 
