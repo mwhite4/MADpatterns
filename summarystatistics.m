@@ -1,3 +1,5 @@
+%%A function to provide summary statistics of the objects and events
+
 function [number_of_objects,avg_object_length,avg_number_of_events,event_total_bins,norm_freq_total_events]=summarystatistics(event_position,object_length)
 %Step 1: calculate the total number of objects measured
 [number_of_objects,~]=size(object_length);
