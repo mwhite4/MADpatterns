@@ -9,7 +9,7 @@ end
 input=readtable(input_file);
 input_table=table2array(input);
 
-%% Step 2: Simulate CO patterning for each paramater set (on each line of input table)
+%% Step 2: Simulate crossover patterning for each paramater set (on each line of input table)
 
 %MW: Note that although this is a loop,each simulation could be computed in parallel. It may be possible to do this using the parfor function of Matlab, but you would need the parallel computing toolbox
 
