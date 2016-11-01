@@ -18,6 +18,9 @@ For a detailed user guide and information on the relevance of this program to th
 
 doi: http://dx.doi.org/10.1101/083808
 
+##Known Bugs
+The simulation part of the program will fail to execute if a set of input parameters is used that leads to no simulated object receiving any precursor
+
 ##Credits
 This program was developed by Martin White in the lab of Prof. Nancy Kleckner with help from Liangran Zhang.  A significant fraction of this program is either directly taken or derived from a previous program developed by Liangran Zhang, Nancy Kleckner and John Hutchinson:
 
