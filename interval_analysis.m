@@ -45,9 +45,9 @@ for i=1:max_number_of_events
 end
 normalized_event_position=event_position./object_length_matrix;
 
-%% Step 4: Bin each object into intervals and calculate the frequency of events per interval
+%% Step 5: Bin each object into intervals and calculate the frequency of events per interval
 
-% Step 4.1: for every object, count the number of observed events within
+% Step 5.1: for every object, count the number of observed events within
 % each interval
 event_per_interval(number_of_objects,number_of_intervals)=0;
 for i=1:number_of_objects
@@ -61,13 +61,13 @@ for i=1:number_of_objects
 end
 event_frequency=mean(event_per_interval);
 
-%Step 4.2: for each interval, calculate the proportion of objects that
+%Step 5.2: for each interval, calculate the proportion of objects that
 %had one or more events within that interval
 pattern_per_interval=event_per_interval;
 pattern_per_interval(pattern_per_interval>1)=1;
 observed_pattern_frequency_per_interval=mean(pattern_per_interval);
 
-%Step 5: Calculate the proportion of objects that had one or more events in each interval for every possible pair or intervals
+%%Step 6: Calculate the proportion of objects that had one or more events in each interval for every possible pair or intervals
 observed_pattern_frequency(number_of_intervals-1,number_of_intervals-1)=0;
 for i=1:number_of_intervals-1
     for j=i+1:number_of_intervals
@@ -75,7 +75,7 @@ for i=1:number_of_intervals-1
     end
 end
 
-%Step 6: Calculate the predicted number of objects with an event in both intervals for every possible pair of intervals, assuming that events occur independently
+%%Step 7: Calculate the predicted number of objects with an event in both intervals for every possible pair of intervals, assuming that events occur independently
 %multiply the average pattern frequency in interval i by the averge frequency
 %in the interval, j columns away.  In the results matrix, data for each
 %interval is contained in a row, with a seperate column for each possible
@@ -87,7 +87,7 @@ for i=1:number_of_intervals-1
     end
 end
 
-% Step 7: Calculate the coefficient of coincidence for each pair of intervals
+%%Step 8: Calculate the coefficient of coincidence for each pair of intervals
 coefficient_of_coincidence=observed_pattern_frequency./expected_pattern_frequency;
 total_CoC_per_distance=nansum(coefficient_of_coincidence,1);
 total_pairs_per_distance=coefficient_of_coincidence;
