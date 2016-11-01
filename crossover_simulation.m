@@ -70,6 +70,7 @@ for i=1:number_of_simulations
     [mature_designations]=mature_designated_precursors(n,number_of_precursors_per_object,precursor_positions,event_designations,M);
     
     %% Step 2.5: Add type II events (mature non-designated precursors into detectable products with some probability)
+    %MW: note that in the current version of the program, designated precursors that fail to mature (step 2.4) have the potential to become a type II event
     [final_array_of_events]=add_typeII_events(n,number_of_precursors_per_object,mature_designations,T2prob);
     
     %% Step 2.6: generate final table of event (crossover) positions, append object length (for future analysis) and output results
