@@ -1,4 +1,7 @@
+%%A function to calculate the distances between events and provide a statistical summary of their distribution
+
 function [distance_between_adjacent_events_all,mean_distance,mean_norm_distance,gamma_shape,gamma_shape_CIs,gamma_scale,gamma_scale_CIs]=event_spacing(event_position,object_length)
+
 %Step 1: normalize the event positions relative to object length
 [row,column]=size(event_position);
 object_length_matrix=zeros(row,column);
