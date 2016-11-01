@@ -1,4 +1,4 @@
-%% Notes
+%% A collection of functions written in MATLAB for the automated analysis of 1D patterning of events along linear objects
 
 function analyze_events_on_linear_objects(input_file,number_of_intervals)
 %Step 1: get the input file, format it and extract information
