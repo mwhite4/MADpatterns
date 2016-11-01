@@ -1,3 +1,5 @@
+%% A function to extract object lengths and event positions from input table
+
 function [event_position,object_length]=extract_information(input_file)
 
 %Step 1: get input table
