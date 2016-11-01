@@ -11,7 +11,7 @@ function analyze_events_on_linear_objects(input_file,number_of_intervals)
 %Step 3: Perform summary statistics
 [number_of_objects,avg_object_length,avg_number_of_events,event_total_bins,norm_freq_total_events]=summarystatistics(event_position,object_length);
 
-%Step 4: Interval analyses: calculate average CoC and average number of events per interval
+%Step 4: Interval analyses: calculate average Coefficient of Coincidence and average number of events per interval
 %Step 4.1 calculate the default number of intervals for interval analysis using the average (normalized) distance between adjacent events
 if isempty(number_of_intervals)
     number_of_intervals=ceil(1/mean_norm_distance*5);
