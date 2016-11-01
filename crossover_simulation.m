@@ -11,7 +11,7 @@ input_table=table2array(input);
 
 %% Step 2: Simulate crossover patterning for each paramater set (on each line of input table)
 
-%MW: Note that although this is a loop,each simulation could be computed in parallel. It may be possible to do this using the parfor function of Matlab, but you would need the parallel computing toolbox
+%Note that although this is a loop, each simulation could be computed in parallel. It may be possible to do this using the parfor function of MATLAB, but you would need the parallel computing toolbox
 
 % Step 2.1: start a loop, reading a parameter set from each line of input
 number_of_simulations=size(input_table,1);
