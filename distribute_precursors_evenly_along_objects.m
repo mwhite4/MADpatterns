@@ -10,7 +10,7 @@ up=(start_position+mean_interprecursor_distance):mean_interprecursor_distance:1;
 even_position=[down,start_position,up];
 %add variation to the interflaw distance, only keeping precursors that
 %remain within the boundary of the bivalent
-total_number_of_precursors=size(even_position,2);                           %surely I can inactivate this?
+total_number_of_precursors=size(even_position,2);
 standard_deviation=mean_interprecursor_distance*(1-evenness);
 positions(1:total_number_of_precursors)=inf;
 dL=normrnd(0,standard_deviation);
