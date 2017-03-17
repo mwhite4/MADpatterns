@@ -19,6 +19,10 @@ For a detailed user guide and information on the relevance of this program to th
 
 doi: http://dx.doi.org/10.1101/083808
 
+Update: A new function has been added to the program in order to model the effect of a reduced number of active precursors (parameter Y).  For more information on this parameter, please read our new paper:
+
+Wang et al. (2017). Inefficient Crossover Maturation Underlies Elevated Aneuploidy in Human Female Meiosis. Cell; 168: 977 - 989
+
 ## Known Bugs
 The simulation part of the program will fail to execute if a set of input parameters is used that leads to no simulated object receiving any precursor
 
@@ -30,8 +34,6 @@ Kleckner et al. (2004). A mechanical basis for chromosome function. Proc. Natl. 
 Zhang et al. (2014). Crossover patterning by the Beam-Film model: analysis and implications. PLoS Genetics; 10: e1004042
 
 Zhang et al. (2014). Topoisomerase II mediates meiotic crossover interference. Nature; 511: 551-556.
-
-Wang et al. (2017). Inefficient Crossover Maturation Underlies Elevated Aneuploidy in Human Female Meiosis. Cell; 168: 977 - 989
 
 This previous version of the program is available for download here https://app.box.com/s/hv91q2nrtq0cp9n8iy9m
 
