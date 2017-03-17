@@ -1,28 +1,28 @@
 # MADpatterns
 [![DOI](https://zenodo.org/badge/72135256.svg)](https://zenodo.org/badge/latestdoi/72135256)
 
-##Description
+## Description
 
 **MADpatterns** is a tool to **M**odel and **A**nalyze  1**D** **patterns** using the software MATLAB, that was developed in the lab of Prof. Nancy Kleckner at Harvard University
 http://projects.iq.harvard.edu/kleckner_lab
 
-####Key Features
+#### Key Features
 
 1. Quantitatively model 1D patterning events based on the Beam-Film model for crack formation
 2. Automate analysis of 1D patterns
 
-##Installation
+## Installation
 Download program, unzip the folder, open MATLAB and add the unzipped folder to the file path
 
-##Usage
+## Usage
 For a detailed user guide and information on the relevance of this program to the study of meiotic recombination events, please read our manuscript currently available on bioRxiv and soon to be available in Methods in Molecular Biology.
 
 doi: http://dx.doi.org/10.1101/083808
 
-##Known Bugs
+## Known Bugs
 The simulation part of the program will fail to execute if a set of input parameters is used that leads to no simulated object receiving any precursor
 
-##Credits
+## Credits
 This program was developed by Martin White in the lab of Prof. Nancy Kleckner with help from Liangran Zhang.  A significant fraction of this program is either directly taken or derived from a previous program developed by Liangran Zhang, Nancy Kleckner and John Hutchinson:
 
 Kleckner et al. (2004). A mechanical basis for chromosome function. Proc. Natl. Acad. Sci. USA; 101: 12592 - 12597
@@ -33,7 +33,7 @@ Zhang et al. (2014). Topoisomerase II mediates meiotic crossover interference. N
 
 This previous version of the program is available for download here https://app.box.com/s/hv91q2nrtq0cp9n8iy9m
 
-##License
+## License
 MIT License
 
 Copyright (c) 2016 Martin Andrew White
