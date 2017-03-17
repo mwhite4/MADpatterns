@@ -23,6 +23,8 @@ Update: A new function has been added to the program in order to model the effec
 
 Wang et al. (2017). Inefficient Crossover Maturation Underlies Elevated Aneuploidy in Human Female Meiosis. Cell; 168: 977 - 989
 
+In order to incorporate this new function, the input table for simulating 1D patterns according to the Beam-Film model has been updated.  The appropriate format of this input table can be found in the example table (simulation_parameters.csv) that is included with the program.
+
 ## Known Bugs
 The simulation part of the program will fail to execute if a set of input parameters is used that leads to no simulated object receiving any precursor
 
