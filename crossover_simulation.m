@@ -1,4 +1,4 @@
-function crossover_simulation(input_file)
+function crossover_simulationv2(input_file)
 
 %% Step 1: obtain parameter sets from input table
 %MW: If table has no name, the user can select the file using finder.  Assume that table has headers
@@ -29,18 +29,19 @@ for i=1:number_of_simulations
     Bs=input_table(i,5);                                                    %MW: The left co-ordinate of the region of precursor suppression ("black hole").  0<=Bs<=1
     Be=input_table(i,6);                                                    %MW: The right co-ordinate of the region of precursor suppression ("black hole").  0<=Be<=1
     Bd=input_table(i,7);                                                    %MW: Precursor density within the black hole, relative to regions outside the black hole.  0<=Bd<=1
+    Y=input_table(i,8);                                                     %MW: Maturation efficiency of an observable precursor into a crossover designation-responsive precursor. 0<=Y<=1
     
     %Crossover Designation Patterning Parameters
-    Smax=input_table(i,8);                                                  %MW: The mean maximum stress level per simulated object (bivalent). Smax>=0
-    Bsmax=input_table(i,9);                                                 %MW: The similarity in maximum stress level between objects (bivalents). 0<=Bsmax<=1
-    A=input_table(i,10);                                                    %MW: The determinant of precursor intrinsic sensitivities. 1<=A<=7    
-    L=input_table(i,11);                                                    %MW: Stress relief distance.  0.001<=L<=1
-    cL=input_table(i,12);                                                   %MW: Left end clamp. 0<=cL<=1
-    cR=input_table(i,13);                                                   %MW: Right end clamp. 0<=cR<=1
+    Smax=input_table(i,9);                                                  %MW: The mean maximum stress level per simulated object (bivalent). Smax>=0
+    Bsmax=input_table(i,10);                                                 %MW: The similarity in maximum stress level between objects (bivalents). 0<=Bsmax<=1
+    A=input_table(i,11);                                                    %MW: The determinant of precursor intrinsic sensitivities. 1<=A<=7    
+    L=input_table(i,12);                                                    %MW: Stress relief distance.  0.001<=L<=1
+    cL=input_table(i,13);                                                   %MW: Left end clamp.
+    cR=input_table(i,14);                                                   %MW: Right end clamp.
     
     %Crossover Maturation Parameters
-    M=input_table(i,14);                                                    %MW: Probability of a (crossover) designated precursor maturing into a detectable (crossover) product
-    T2prob=input_table(i,15);                                               %MW: Probability that a precursor that was not designated as a crossover, will become a detectable (Type II) crossover
+    M=input_table(i,15);                                                    %MW: Probability of a (crossover) designated precursor maturing into a detectable (crossover) product. 0<=M<=1
+    T2prob=input_table(i,16);                                               %MW: Probability that a precursor that was not designated as a crossover, will become a detectable (Type II) crossover. 0<=T2prob<=1
     
     %% Step 2.2: For each simulated object (bivalent), generate an array of precursors with intrinsic stress sensitivity values
     
@@ -54,8 +55,11 @@ for i=1:number_of_simulations
     
     %Step 2.2.2: generate an array of precursor positions for each simulated object (bivalent) and update the total number of precursors per bivalent
     [precursor_positions,number_of_precursors_per_object]=generate_precursor_array(n,number_of_precursors_per_object,E,Bs,Be,Bd);
-
-    % Step 2.2.3: Assign each precursor an intrinsic sensitivity to stress
+    
+    %Step 2.2.3: Remove precursors with a probability determined by Y.
+    [precursor_positions,number_of_precursors_per_object]=mature_precursor_array(n,number_of_precursors_per_object,precursor_positions,Y);
+ 
+    % Step 2.2.4: Assign each precursor an intrinsic sensitivity to stress
     [precursor_sensitivity_matrix]=generate_precursor_sensitivities(n,number_of_precursors_per_object,A);
     
     %% Step 2.3: Apply stress and determine which precursors become designated to form (crossovers)
