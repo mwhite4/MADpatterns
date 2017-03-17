@@ -1,8 +1,6 @@
 # MADpatterns
 [![DOI](https://zenodo.org/badge/72135256.svg)](https://zenodo.org/badge/latestdoi/72135256)
 
-N.B.An updated version to comply with our new paper Wang et. al. (2017). Inefficient Crossover Maturation Underlies Elevated Aneuploidy in Human Female Meiosis; Cell, will be available shortly.
-
 ##Description
 
 **MADpatterns** is a tool to **M**odel and **A**nalyze  1**D** **patterns** using the software MATLAB, that was developed in the lab of Prof. Nancy Kleckner at Harvard University
