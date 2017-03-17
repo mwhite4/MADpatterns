@@ -36,7 +36,6 @@ for i=1:number_of_simulations
     Bsmax=input_table(i,10);                                                 %MW: The similarity in maximum stress level between objects (bivalents). 0<=Bsmax<=1
     A=input_table(i,11);                                                    %MW: The determinant of precursor intrinsic sensitivities. 1<=A<=7    
     L=input_table(i,12);                                                    %MW: Stress relief distance.  0.001<=L<=1
-    %MW: must be allowed to input clamp values greater than 1...
     cL=input_table(i,13);                                                   %MW: Left end clamp.
     cR=input_table(i,14);                                                   %MW: Right end clamp.
     
